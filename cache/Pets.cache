@@ -1,32 +1,31 @@
 let petNames=[' Darcy',' Jack',' Jerry',' Marty',' Vito',' Vinny',' Riley',' Saddie',' Marge',' Sam']
-console.log(petNames)
+/*alert(petNames)
 petNames.splice(5,1)
-console.log(petNames)
+alert(petNames)
 petNames.splice(3,1)
-console.log(petNames)
+alert(petNames)
 petNames.unshift(' Nancy')
-console.log(petNames)
+alert(petNames)
 petNames.push(' Ryan')
-console.log(petNames)
+alert(petNames)
 let rileyIndex = petNames.indexOf(' Riley')
-console.log(rileyIndex)
+alert(rileyIndex)
 let cindyIndex=petNames.indexOf('Cindy')
-console.log(cindyIndex)
+alert(cindyIndex)
 let withMarmaduke= [petNames+', Marmaduke']
-console.log(withMarmaduke)
+alert(withMarmaduke)
 let x=petNames.shift()
-console.log(x)
+alert(x)*/
 petNames.unshift(' Barney')
-console.log(petNames)
-let newPets = [' Ted',' Fred',' Jed',' Ned',' Ed',' Zed']
-let allPets = [petNames+newPets]
-console.log(allPets)
-/*let y=allPets.shift()
-alert(y)*/
+alert(petNames)
+let allPets = petNames.concat([' Ted',' Fred',' Jed',' Ned',' Ed',' Zed'])
+alert(allPets)
+let y=allPets.shift()
+alert(y)
 let pets=allPets.join()
-console.log(pets)
+alert(pets)
 allPets.unshift('Agnes')
-console.log(allPets)
+alert(allPets)
 
 
 
